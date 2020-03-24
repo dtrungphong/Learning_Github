@@ -12,15 +12,15 @@
 - Trước tiên, bạn cần tạo một tài khoản github trước
 - Ở đây mình sử dụng tài khoản của mình. Dưới đây là những repository đã được tạo từ trước.
 
-![image_repository]()
+![image_repository](https://github.com/dtrungphong/Learning_Github/blob/master/Basic_Command/image/image_repository.png)
 
 - Bạn chọn **New** và điền đầy đủ thông tin để tạo một repository
 
-![image_new_respository]()
+![image_new_respository](https://github.com/dtrungphong/Learning_Github/blob/master/Basic_Command/image/image_new_respo.png)
 
 - Ở đây mình đã tạo ra thành công một repository mới với tên là **Learning_Gituhb**
 
-![image_complete_new_respo]()
+![image_complete_new_respo](https://github.com/dtrungphong/Learning_Github/blob/master/Basic_Command/image/complete_new_respo.png)
 
 - Như vậy bạn đã tạo thành công một repository mới. Tiếp theo sẽ là vài lệnh cơ bản trong Github
 
@@ -35,7 +35,7 @@ git clone /Đường dẫn để clone repository đấy/
 
     - Ở đây ta sẽ lấy đường dẫn clone này về và chạy với lênh terminal 
 
-![image_clone]()
+![image_clone](https://github.com/dtrungphong/Learning_Github/blob/master/Basic_Command/image/image_clone.png)
 
     - Ví dụ:
 
