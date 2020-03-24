@@ -33,19 +33,19 @@
 git clone /Đường dẫn để clone repository đấy/
 ```
 
-    - Ở đây ta sẽ lấy đường dẫn clone này về và chạy với lênh terminal 
+   - Ở đây ta sẽ lấy đường dẫn clone này về và chạy với lênh terminal 
 
 ![image_clone](https://github.com/dtrungphong/Learning_Github/blob/master/Basic_Command/image/image_clone.png)
 
-    - Ví dụ:
+   - Ví dụ:
 
 
 ```python
 git clone https://github.com/dtrungphong/Learning_Github.git  
 ```
 
-    - Ngoài ra bạn có thể sử dụng một số cách khác như Download dưới dạng file Zip về và giải nén
-    - Sau khi chúng ta clone về sẽ có thư mục chứa tên của repository
+   - Ngoài ra bạn có thể sử dụng một số cách khác như Download dưới dạng file Zip về và giải nén
+   - Sau khi chúng ta clone về sẽ có thư mục chứa tên của repository
 
 - Thao tác tải thư mục lên github với repository đã được clone về từ trước:
 
@@ -54,24 +54,24 @@ git clone https://github.com/dtrungphong/Learning_Github.git
 git add *
 ```
 
-    - Với git add * sẽ giúp bạn cập nhật toàn bộ thay đổi trong thư mục được repository về
-    - Ngoài ra bạn có thể dùng git add 'tên folder cần cập nhật lên'
-    - Ở đây nó đang nằm chờ ở vùng chỉ mục và chờ được cập nhật lên trên github
+   - Với git add * sẽ giúp bạn cập nhật toàn bộ thay đổi trong thư mục được repository về
+   - Ngoài ra bạn có thể dùng git add 'tên folder cần cập nhật lên'
+   - Ở đây nó đang nằm chờ ở vùng chỉ mục và chờ được cập nhật lên trên github
 
 
 ```python
 git commit -m "Nội dung"
 ```
 
-    - Nó sẽ giúp bạn ghi chú phần cập nhật thay đổi và tải lên Head trước khi được cập nhật lên github
+   - Nó sẽ giúp bạn ghi chú phần cập nhật thay đổi và tải lên Head trước khi được cập nhật lên github
 
 
 ```python
 git push origin master
 ```
 
-    - Nó giúp giúp bạn đẩy (push) những thay đổi lên trên trang github
-    - Lưu ý phần này đôi khi nó sẽ yêu cầu bạn cần nhập tài khoản mật khẩu github để xác định bạn là ai
+   - Nó giúp giúp bạn đẩy (push) những thay đổi lên trên trang github
+   - Lưu ý phần này đôi khi nó sẽ yêu cầu bạn cần nhập tài khoản mật khẩu github để xác định bạn là ai
 
 - Lệnh Kiểm tra bạn đang ở nhánh (Branch) nào:
 
