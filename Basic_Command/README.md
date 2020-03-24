@@ -27,33 +27,73 @@
 ### Các lệnh cơ bản
 
 - Sao chép (Clone) một repository về với lệnh:
+
+
+```python
 git clone /Đường dẫn để clone repository đấy/
+```
+
     - Ở đây ta sẽ lấy đường dẫn clone này về và chạy với lênh terminal 
 
 ![image_clone]()
 
     - Ví dụ:
+
+
+```python
 git clone https://github.com/dtrungphong/Learning_Github.git  
+```
+
     - Ngoài ra bạn có thể sử dụng một số cách khác như Download dưới dạng file Zip về và giải nén
     - Sau khi chúng ta clone về sẽ có thư mục chứa tên của repository
 
 - Thao tác tải thư mục lên github với repository đã được clone về từ trước:
+
+
+```python
 git add *
+```
+
     - Với git add * sẽ giúp bạn cập nhật toàn bộ thay đổi trong thư mục được repository về
     - Ngoài ra bạn có thể dùng git add 'tên folder cần cập nhật lên'
     - Ở đây nó đang nằm chờ ở vùng chỉ mục và chờ được cập nhật lên trên github
+
+
+```python
 git commit -m "Nội dung"
+```
+
     - Nó sẽ giúp bạn ghi chú phần cập nhật thay đổi và tải lên Head trước khi được cập nhật lên github
+
+
+```python
 git push origin master
+```
+
     - Nó giúp giúp bạn đẩy (push) những thay đổi lên trên trang github
     - Lưu ý phần này đôi khi nó sẽ yêu cầu bạn cần nhập tài khoản mật khẩu github để xác định bạn là ai
 
 - Lệnh Kiểm tra bạn đang ở nhánh (Branch) nào:
+
+
+```python
 git status
+```
+
 - Liệt kê những danh sách đang được sử dụng 
+
+
+```python
 git config --list
+```
+
 - Xem thông tin hỗ trợ cho một câu lệnh của Github:
+
+
+```python
 git help clone
+```
+
 - Ngoài ra còn nhiều lệnh khác nữa mình sẽ xây dựng và đóng góp bổ sung trong phần 2 đối với một dự án project
 - Mong được sự đóp góp và góp ý của các bạn về bài viết
 
